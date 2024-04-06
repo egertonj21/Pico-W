@@ -1,0 +1,2 @@
+mosquitto_sub -h 192.168.0.37 -p 1883 -t ultrasonic/distance -u abc -P 1234
+mosquitto -v -c test.config
